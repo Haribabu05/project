@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/round_corner"
+    android:gravity="center"
+    android:layout_height="350dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Samosa"
+        android:textColor="@color/black"
+        android:fontFamily="@font/interr"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="364dp"
+        tools:srcCompat="@drawable/samosa" />
+
+    <TextView
+        android:id="@+id/textVie5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹10.00"
+        android:fontFamily="@font/intersb"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner1"
+        android:text="ADD"
+        android:textColor="@color/white"
+        android:fontFamily="@font/intersb"/>
+
+</LinearLayout>
